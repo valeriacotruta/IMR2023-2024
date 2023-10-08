@@ -9,16 +9,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -2067402452, guid: 8a9a760f95896c34689febc965510927, type: 3}
+  m_Script: {fileID: -2067402452, guid: 1e108ae5f2133934f948edded555f03e, type: 3}
   m_Name: VuforiaConfiguration
   m_EditorClassIdentifier: 
   vuforia:
     vuforiaLicenseKey: Afs7UQT/////AAABmUgdOwJFB00+q3pK/rR/7w5LxwMBNGmI6hAk6Urju7D8Hhlr6gkyyfChsirjwtEREZaFxZ6hJVz2GlkK6j+zHc4kMPbur82bC5ByiViI/OEOZkK2+tBe1tKq+eKtJ4ZEW3XWPuskvgodO03395BHPSHFzDGVj8bcjZG6Z5q3l3QOHIAsOUuC9HWtssMV0k4Cmj33UPDM92IEb6iFadcqWjop5lUNvVivtA3xU3+EAKmhI4w67WhoMU+lL4gp4dgRamBg6SmuABxIHU+CRktkyTUpMmV3ZsoTDEZnt1kEu/bghJvqZtRhJNhCAxjwau/pXZX9TWPtArQs9e8JjHL9nHjNIFCv8zGUJQt8lWKMAF5a
-    ufoLicenseKey: QVZYN2F0UC8vLy8vQUFBQUtBSkF4Zk9KYlVUbW9NdkRRNDZpbVhsdDRxZE50TUYwQkR1aWlCS3VVbVhmb0p3QmM1UXQ1RGZveXMySHZIb3dIcmdJR3pVeTNIKzFuSXRpeWZuQjJRZWsyamdTd1JJNzlNVVBPaGVZaWpzNjIyMm03Z2t3VEFVbUVzbWpHbzh4akgvVXlaK1lpQ2w4ZDZxcjJQZ2JvVTIrYVpSdzIyY2IrckJON2dJZXBkNHh5RjJHUFhqbnExQ01ucWtKUDE2TC8xTFdnSFVCeS8zMi9DbWJOaFhUbGJYejdqN1FJMkx4ckpvL093T29rdGpwZkh2eU5SYkR1aG8rYUpVNXdwZFZNQURHbVZXWGJzWklvNmFDNXg2WWlqQmoxVHJUZnNLZXZkd256K3gzSkNhZDExMDR6SEpBUWdEYkpOa2JJMjVkNXFTTzY5dUF5a1hqMWM1Nm5peXlxYmIyMGYrZExIcHFuQmszSzRxMXhRK0k=
+    ufoLicenseKey: QVMxcEdidi8vLy8vQUFBQUtPSXQwOCtsS1VZOW1Ib2J1V21JNnNkOVlhMFJNSzFtNkFpaUhvYTVBUW9oR0NtcXI3MjFaZHFBcjJNZFZtODl3VFc4ckQ4Ukhib0JJRzdQcGdrUmJQYS9ydkxCZGVKaWczR25nUHhpZWFCdkJrc1R2L0NydHpQQ01DbjVISllJcHowV1RUQXMyS215SVl3Ri9pN3hCZ1J1MzNQT2JXUEttbXVVVlk3dktYbnRkUG5KVjlRRnhIT2ZGQk1IbHBHVGdPUlloOGxNVVhoNHo1N0dYQ1pleW40LytDcHR0YkE0Wm9kY3p4VnZoUlBzYjlJcjF4dVMyRDBqQzBRYTJVbXNFakpBcE0wRXRJTTRweGxrRkYzTjdCSThYVytBdmpycVA1N0JKSTBkY1ZtcWZhMVlwUXg1aHJtS2p3TGtGSDRKUzQ3ZGUyY0pERGpOdkpPaHhuRlZxMEhkZnpjSU44U0RzZ1hFWElrQXNnWjU=
     delayedInitialization: 0
     cameraFocusModeSetting: 2
     cameraDeviceModeSetting: -1
-    maxSimultaneousImageTargets: 2
+    maxSimultaneousImageTargets: 5
     virtualSceneScaleFactor: 1
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
@@ -47,4 +47,4 @@ MonoBehaviour:
   webcam:
     renderTextureLayer: 30
   packageInformation:
-    ARFoundationVersion: 5.0.7
+    ARFoundationVersion: 4.2.8
